@@ -1,3 +1,6 @@
+# GT-GAN: General Purpose Time Series Synthesis with Generative Adversarial Networks
+
+
 # Usage
 ## Install the environment using yaml file
 ~~~
@@ -46,5 +49,3 @@ python GTGAN_energy.py --data energy --atol 1e-3 --rtol 1e-3 --log_time 2 --max-
 ~~~
 python GTGAN_energy.py --data energy --atol 1e-3 --rtol 1e-3 --log_time 2 --max-steps 8500 --missing_value 0.5 --reconstruction 0.01 --kinetic-energy 0.5 --jacobian-norm2 0.1 --save_dir irregular_energy
 ~~~
-
-# GT-GAN
