@@ -6,6 +6,7 @@ import lib.spectral_norm as spectral_norm
 import six
 from lib.layers.odefunc import divergence_bf, divergence_approx
 
+# test
 
 def standard_normal_logprob(z):
     logZ = -0.5 * math.log(2 * math.pi)
